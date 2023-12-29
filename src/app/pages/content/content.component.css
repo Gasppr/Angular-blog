@@ -1,7 +1,7 @@
 .container-content{
-  border: solid white 2px;
+
   width: 100%;
-  height: 100vh;
+  
   display: flex;
   flex-direction: column;
 
@@ -11,6 +11,7 @@
 
 
 .content-cover > img{
+  margin-top: 20px;
   width: 500px;
   border-radius: 5px;
   min-width: 500px;
@@ -18,7 +19,11 @@
 }
 
 .content-title{
+
+  margin-left: 50vh;
+  margin-right: 50vh;
   margin-top: 10px;
+
 
 }
 
@@ -30,4 +35,17 @@
 
   color: gray;
   margin-top: 20px;
+}
+
+
+.content-text {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+
+  margin-left: 20vh;
+  margin-right: 20vh;
+
 }

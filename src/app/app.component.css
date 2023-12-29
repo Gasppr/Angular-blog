@@ -3,3 +3,34 @@ header{
   display: flex;
   justify-content: center;
 }
+
+footer{
+  border: solid rgb(82, 82, 82) 1.5px;
+  padding-top: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+   .social-medias{
+
+      margin-right: 20px;
+      margin-bottom: 20px;
+
+
+    p{
+      margin-bottom: 5px;
+    }
+  }
+
+  .about{
+    margin-left: 20px ;
+    margin-bottom: 20px;
+
+    p{
+      margin-bottom: 5px;
+    }
+  }
+}
+

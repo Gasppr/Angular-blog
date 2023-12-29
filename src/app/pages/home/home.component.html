@@ -1,21 +1,20 @@
-
-
 <app-menu-title></app-menu-title>
 
 <div class="container-articles">
-   <div class="articles_main">
-      <app-big-card
-      id="{{manchete[0].id}}"
-      photoCover="{{manchete[0].photoCover}}" cardTitle="{{manchete[0].title}}" cardDescription="{{manchete[0].description}}"></app-big-card>
-   </div>
-   <div class="others" >
-      <app-small-card *ngFor="let noticia of data; "
-      id="{{noticia.id}}"
-      cardPhoto="{{noticia.photoCover}}" cardTitle="{{noticia.title}}"></app-small-card>
-
-
-   </div>
-
-
+  <div class="articles_main">
+    <app-big-card
+      id="{{ manchete[0].id }}"
+      photoCover="{{ manchete[0].photoCover }}"
+      cardTitle="{{ manchete[0].title }}"
+      cardDescription="{{ manchete[0].description }}"
+    ></app-big-card>
+  </div>
+  <div class="others">
+    <app-small-card
+      *ngFor="let noticia of data"
+      id="{{ noticia.id }}"
+      cardPhoto="{{ noticia.photoCover }}"
+      cardTitle="{{ noticia.title }}"
+    ></app-small-card>
+  </div>
 </div>
-
