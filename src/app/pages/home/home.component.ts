@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { dataFake } from '../../data/dataFake';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,12 @@ import { Component, Input } from '@angular/core';
 })
 export class HomeComponent {
 
+   manchete : any[] = []
 
+   data : any[] = []
 
   constructor() {
-
+    this.manchete.push(dataFake.shift())
+    this.data = dataFake
   }
 }
