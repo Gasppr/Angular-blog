@@ -13,7 +13,9 @@ export class SmallCardComponent {
   @Input()
   cardPhoto : string = ''
 
-
+  @Input()
+  id : string = '0'
+  
    constructor() {
 
   }
